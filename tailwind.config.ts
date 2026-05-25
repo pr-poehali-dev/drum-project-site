@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1779718775708725978.html"
 	],
 	prefix: "",
 	theme: {
@@ -89,6 +90,23 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				display: ['Oswald', 'sans-serif'],
+				body: ['IBM Plex Sans', 'sans-serif'],
+			},
+			colors: {
+				gold: {
+					DEFAULT: '#D4A017',
+					light: '#F0C040',
+					dark: '#A07010',
+				},
+				studio: {
+					dark: '#0D0D0D',
+					'dark-2': '#141414',
+					'dark-3': '#1C1C1C',
+					'dark-4': '#242424',
+				}
 			}
 		}
 	},
